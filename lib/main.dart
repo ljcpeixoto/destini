@@ -65,7 +65,8 @@ class _StoryPageState extends State<StoryPage> {
                     //TODO: Step 18 - Call the nextStory() method from storyBrain and pass the number 1 as the choice made by the user.
                   },
                   style: TextButton.styleFrom(
-                    foregroundColor: Colors.red,
+                    backgroundColor: Colors.red,
+                    foregroundColor: Colors.white,
                   ),
                   child: const Text(
                     //TODO: Step 13 - Use the storyBrain to get the text for choice 1.
@@ -89,7 +90,8 @@ class _StoryPageState extends State<StoryPage> {
                     //TODO: Step 19 - Call the nextStory() method from storyBrain and pass the number 2 as the choice made by the user.
                   },
                   style: TextButton.styleFrom(
-                    foregroundColor: Colors.blue,
+                    backgroundColor: Colors.blue,
+                    foregroundColor: Colors.white,
                   ),
                   child: const Text(
                     //TODO: Step 14 - Use the storyBrain to get the text for choice 2.
