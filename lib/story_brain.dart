@@ -67,10 +67,13 @@ class StoryBrain {
     }
     _currentStory ??= _story0;
   }
+
+  bool shouldButtonBeVisible(int choiceNumber) {
+    return (choiceNumber == 1 && _currentStory!.choice1 != '') ||
+        (choiceNumber == 2 && _currentStory!.choice2 != '');
+  }
 }
 
 //TODO: Step 11 - Create a method called getChoice1() that returns the text for the first choice1 from _storyData.
 
 //TODO: Step 12 - Create a method called getChoice2() that returns the text for the first choice2 from _storyData.
-
-//TODO: Step 27 - Create a method called buttonShouldBeVisible() which checks to see if storyNumber is 0 or 1 or 2 (when both buttons should show choices) and return true if that is the case, else it should return false.
