@@ -73,7 +73,3 @@ class StoryBrain {
         (choiceNumber == 2 && _currentStory!.choice2 != '');
   }
 }
-
-//TODO: Step 11 - Create a method called getChoice1() that returns the text for the first choice1 from _storyData.
-
-//TODO: Step 12 - Create a method called getChoice2() that returns the text for the first choice2 from _storyData.
